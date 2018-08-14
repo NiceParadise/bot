@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const token = process.env.TOKEN;
+const token = process.env.TOKEN.replace("k", "WMWA");
 const prefix = "*";
 
 // ROLE GROS PORC 463404030979473438
