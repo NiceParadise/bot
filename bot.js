@@ -17,7 +17,7 @@ bot.on('ready', () => {
     usefulInfos.handlingGuild = bot.guilds.get('211122367978668034');
     usefulInfos.welcomeChannel = usefulInfos.handlingGuild.channels.get('211125565246144512');
     //usefulInfos.roleChannel = usefulInfos.handlingGuild.channels.get('463407796298317835');
-    usefulInfos.logsChannel = usefulInfos.handlingGuild.channels.get('455784603614052352');
+    usefulInfos.logsChannel = usefulInfos.handlingGuild.channels.get('478986383088812042');
     usefulInfos.defaultRole = usefulInfos.handlingGuild.roles.get('455747205484118037');
 
     bot.user.setActivity("des juifs suffoquer", {type: 'WATCHING'});
